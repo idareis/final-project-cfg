@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheeky Choc| Contact</title>
+        <link rel="stylesheet" href="Style.css" />
+    </head>
+    <body>
+      <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Choco builder.html">CHOCO BUILDER</a></li>
+                <li><a href="Contacts.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <h1 class="site-name site-name-large">  Cheeky Choc</h1>
+      </header>
+      <section class="content-section container">
+        <h2 class="section-header"><strong>Contact us
+        </strong></h2>
+        <div class="form">
+            <div class="contact-info">
+                <p>We would love to hear from you! Please get in touch by email or simply fill out the form below. We will answer your query within 2 working days.
+                </p>
+                <div class="info">    
+                    <div class="information">
+                        <img class="icon"src="./Images/email.png"/>
+                        <p>cheeky.choc4you@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img class="icon" src="./Images/phone-call.png"/>
+                        <p>077 1234 5678</p>
+                    </div>
+                </div>
+            </div>
+            <form action="contacts.html" autocomplete="off">
+                <div class="contact-form">
+                    <h4 class="get-in-touch">Get in touch</h4>
+                    <div class="input-container">
+                        <input class="input" type="text" id="fullName" placeholder="Your name" required>
+                    </div>
+                    <div class="input-container">
+                        <input class="input" type="email" id="email" placeholder="Your email" required>
+                    </div>
+                    <div class="input-container">  
+                        <input class="input" type="number" id="phone" placeholder="Your phone number">
+                    </div>
+                    <div class="input-container textarea">   
+                        <textarea class="input" id="message" rows="6" placeholder="Your message here" required></textarea>
+                    </div>
+                    <div class="input-container">
+                        <button class="btn-submit" id="submitbtn" type="submit" onclick="confirm()">Submit</button>
+                    </div>
+                    <script>
+                        function conrifm() {
+                            alert("Thank you for contacting us!");
+                        }
+                    </script>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h4 class="site-name">Cheeky Choc</h4>
+            <ul class="nav footer-nav">
+            <li>
+                <a href="https://facebook.com" target="_blank"><img src="./Images/facebook.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank"><img src="./Images/INST.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank"><img src="./Images/Twitter.png">
+                </a>
+            </li>
+            </ul>
+            <h4 class="copyrights"> © Copyright Cheeky Choc 2023 </h4>     
+        </div>
+    </footer>
+    <script src="./contacts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheeky Choc| Choco builder</title>
+        <meta name="store" content="This is the store">
+        <link rel="stylesheet" href="Style Build.css"/>
+        <script src="store.js" async></script>
+    </head>
+
+    <body>
+      <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Choco builder.html">CHOCO BUILDER</a></li>
+                <li><a href="Contacts.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <h1 class="site-name site-name-large">Cheeky Choc</h1>
+      </header>
+
+      <section class="container content-section">
+        <h3 class="section-header"><strong>Chocolate builder</strong></h3>
+        <p>Use drop down menu to pick your elements for your very own chocolate bar.</p>
+       
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="">Caramel</a>
+                <a href="">Cherry</a>
+                <a href="">Coffee</a>
+                <a href="">Honeycomb</a>
+                <a href="">Hazelnut</a>
+                <a href="">Orange</a>
+                <a href="">Raspberry</a>
+                <a href="">Salted Caramel</a>
+            </div>
+        </div>
+
+        <h3 class="section-header"><strong>Our best sellers</strong></h3>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Snowy Cherry</span>
+                <p>Milk chocolate and sour cherries make a great combination and balance of sweet and sour.</p>
+            <img class="shop-item-image" src="./Images/kristiana-pinne-sQGn6OHIPxQ-unsplash.jpg" width="150" height="250">
+            <div class="shop-item-details">
+                <span class="shop-item-price">£7.50</span>
+                <button class="shop-item-button" type="button">Add to basket</button>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Dark Forest</span>
+                <p>Dark chocolate and roasted nuts, not only squirrels love it, we too!</p>
+            <img class="shop-item-image" src="./Images/photo-1610450949065-1f2841536c88.avif" width="150" height="250">
+            <div class="shop-item-details">
+                <span class="shop-item-price">£7.50</span>
+                <button class="shop-item-button" type="button">Add to basket</button>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Beemi</span>
+                <p>Milk chocolate and honeycomb can make you feel better even on the gloomiest day.</p>
+            <img class="shop-item-image" src="./Images/julia-zyablova-EwaJbJvS9io-unsplash.jpg" width="150" height="250">
+            <div class="shop-item-details">
+                <span class="shop-item-price">£7.50</span>
+                <button class="shop-item-button" type="button">Add to basket</button>
+            </div>
+    </div>
+    </section>
+
+    <section class="container content-section">
+
+        <h3 class="section-header"><strong>My basket</strong></h3>
+        <p>Manage the items by changing quantity in the basket.</p>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="./Images/kristiana-pinne-sQGn6OHIPxQ-unsplash.jpg" width="100">
+                    <span class="cart-item">Snowy Cherry</span>
+                </div>
+                <span class="cart-price cart-column">£7.50</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger">REMOVE</button>
+                </div>
+            </div>
+
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="./Images/photo-1610450949065-1f2841536c88.avif" width="100">
+                    <span class="cart-item">Dark Forest</span>
+                </div>
+                <span class="cart-price cart-column">£7.50</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="3">
+                    <button class="btn btn-danger">REMOVE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">£15.00</span>
+        </div>
+
+            <button class="btn btn-primary btn-purchase" type="button">BUY</button>
+
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h4 class="site-name">Cheeky Choc</h4>
+            <ul class="nav footer-nav">
+            <li>
+                <a href="https://facebook.com" target="_blank"><img src="./Images/facebook.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank"><img src="./Images/INST.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank"><img src="./Images/Twitter.png">
+                </a>
+            </li>
+            </ul>
+            <h4 class="copyrights"> © Copyright Cheeky Choc 2023 </h4>     
+        </div>
+    </footer>
+    </body>
+</html>

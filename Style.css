@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Plus+Jakarta+Sans:wght@200&family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Plus+Jakarta+Sans:wght@200&family=Quicksand&display=swap');
+
+
+* {
+    background-color:#f3e9dc;
+    box-sizing: border-box;
+    font-family:Plus Jakarta Sans;
+    color: rgb(41, 41, 41);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-image: linear-gradient(to right, #c08552, #5e3023);
+    padding-bottom: 2.5em;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #895737;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 5px solid purple;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+
+.site-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Dynapuff;
+}
+
+.site-name-main {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.welcome-image {
+    float: left;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    padding: .25em;
+}
+
+.main-footer {
+    background-color: purple;
+    padding: 2.5em 0;
+    font-size: .5em;
+    text-decoration: none;
+    align-self: baseline;
+}
+
+.main-footer-container {
+    background-color: #f3e9dc;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.footer-nav li {
+    padding: 0.5em;
+}
+
+.footer-nav img {
+    border: 0;
+    padding: 0;
+    height: 40px;
+}
+
+.main-footer a:hover{
+    background-color: purple;
+    border-radius: 10%;
+}
+.copyrights{
+    text-align: right;
+    font-size: 1.4em;
+    padding: .25em;
+}
+
+.form {
+    width: 100%;
+    max-width: 800px;
+    background-image: linear-gradient(to right, #c08552, #f3e9dc);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+.contact-info {
+    background: local;
+    margin: 1.5em 1.5em;
+    z-index:10;
+    position: relatieve;
+}
+
+.text {
+    margin: 1.5em 1.5 em;
+}
+
+.icon {
+    border: 0;
+    padding: 0;
+    height: 40px;
+}
+
+.contact-form {
+    margin: 1.5em 1.5em;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+    font-weight: bolder;
+}
+
+.get-in-touch {
+    background: local;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input-container {
+    position:relative;
+    margin: 1em;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border-color: purple;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: .3em;
+}
+
+.btn-submit{
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-submit a:hover{
+    background-color: #5e3023;
+    border-radius: 10%;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+@media (max-width: 500px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}
